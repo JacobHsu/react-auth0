@@ -1,6 +1,15 @@
 # Auth0 React SDK Sample Application
 
-[Add a Twitter Social Connection in ~10 Minutes With Auth0](https://www.youtube.com/watch?v=zj48buoJvX4)
+[Add a Twitter Social Connection in ~10 Minutes With Auth0](https://www.youtube.com/watch?v=zj48buoJvX4)  
+[auth0-react-samples](https://github.com/auth0-samples/auth0-react-samples/tree/master/Sample-01)
+
+## developer.twitter
+
+User authentication settings > `OAuth 1.0a`  
+Callback URI `https://jacobhsu.us.auth0.com/login/callback`  
+Website URL `https://jacobhsu.us.auth0.com`
+
+## Auth0 React SDK Sample Application
 
 This sample demonstrates the integration of [Auth0 React SDK](https://github.com/auth0/auth0-react) into a React application created using [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html). The sample is a companion to the [Auth0 React SDK Quickstart](https://auth0.com/docs/quickstart/spa/react).
 
