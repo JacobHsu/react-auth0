@@ -25,6 +25,8 @@ const providerConfig = {
   onRedirectCallback,
 };
 
+console.log('providerConfig:', providerConfig)
+
 ReactDOM.render(
   <Auth0Provider {...providerConfig}>
     <App />

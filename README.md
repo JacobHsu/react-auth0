@@ -3,11 +3,21 @@
 [Add a Twitter Social Connection in ~10 Minutes With Auth0](https://www.youtube.com/watch?v=zj48buoJvX4)  
 [auth0-react-samples](https://github.com/auth0-samples/auth0-react-samples/tree/master/Sample-01)
 
+react-social-login > Settings
+
+Allowed Callback URLs / Allowed Logout URLs / Allowed Web Origins
+`http://localhost:3000, http://localhost:3001, http://localhost:5000`
+
 ## developer.twitter
 
 User authentication settings > `OAuth 1.0a`  
 Callback URI `https://jacobhsu.us.auth0.com/login/callback`  
 Website URL `https://jacobhsu.us.auth0.com`
+
+## localhost  
+
+react-auth0>`serve build`  
+http://localhost:5000  
 
 ## Auth0 React SDK Sample Application
 
