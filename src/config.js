@@ -1,4 +1,9 @@
-import configJson from "./auth_config.json";
+// import configJson from "./auth_config.json";
+
+const configJson = {
+  "domain": "jacobhsu.us.auth0.com",
+  "clientId": "whmPThOAVHf7d7d7SswZUkCPiI5PfcIS"
+}
 
 export function getConfig() {
   // Configure the audience here. By default, it will take whatever is in the config
