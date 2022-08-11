@@ -8,11 +8,29 @@ react-social-login > Settings
 Allowed Callback URLs / Allowed Logout URLs / Allowed Web Origins
 `http://localhost:3000, http://localhost:3001, http://localhost:5000`
 
+## developers.facebook
+
+[facebook-social-connection](https://marketplace.auth0.com/integrations/facebook-social-connection)
+
+使用 JavaScript SDK 登入 `是`  
+Facebook登入 > 用戶端 OAuth 設定
+
+有效的 OAuth 重新導向 URI `https://jacobhsu.us.auth0.com/login/callback`
+JavaScript SDK 允許的網域 `https://jacobhsu.us.auth0.com`
+
 ## developer.twitter
 
 User authentication settings > `OAuth 1.0a`  
 Callback URI `https://jacobhsu.us.auth0.com/login/callback`  
 Website URL `https://jacobhsu.us.auth0.com`
+
+## Discord
+
+[discord-social-connection](https://marketplace.auth0.com/integrations/discord-social-connection)  
+
+OAuth2
+Client information `CLIENT ID` `CLIENT SECRET`  
+Redirects `https://jacobhsu.us.auth0.com/login/callback`  
 
 ## localhost  
 
